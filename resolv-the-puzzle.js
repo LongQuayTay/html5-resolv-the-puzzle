@@ -62,7 +62,11 @@ function Square(xPosition, yPosition) {
 // Class Board.
 function Board() {
  // Properties.
- this.points = new Array(); this.points[0] = 0; this.points[1] = 180; this.points[2] = 360; this.points[3] = 540;
+ this.points = new Array();
+ this.points[0] = 0; 
+ this.points[1] = 180; 
+ this.points[2] = 360;
+ this.points[3] = 540;
  this.squares = new Array();
  this.squares[0] = new Square(0, 0);
  this.squares[1] = new Square(180, 360);
